@@ -324,7 +324,7 @@ main {
 	padding: 15px;
 	background-color: var(--black);
 	border-radius: 5px;
-	box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .product-detail--card .product-icon {
@@ -342,15 +342,15 @@ main {
 }
 
 .eye {
-	background-image: url('./assets/icons/eye.svg')
+	background-image: url('./assets/icons/eye.svg');
 }
 
 .dollar {
-	background-image: url('assets/icons/dollar-sign.svg')
+	background-image: url('assets/icons/dollar-sign.svg');
 }
 
 .check {
-	background-image: url('assets/icons/check-circle.svg')
+	background-image: url('assets/icons/check-circle.svg');
 }
 
 .product--card-title {
@@ -373,7 +373,7 @@ main {
 	width: 100%;
 	min-width: 320px;
 	height: 50vh;
-	background-image:url('./assets/images/bitcoinbaby-2x.png');
+	background-image: url('./assets/images/bitcoinbaby-2x.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -440,7 +440,7 @@ main {
 	padding: 0 15px;
 	background-color: var(--just-white);
 	border-radius: 15px;
-	box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+	box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
 .recommended {
@@ -461,7 +461,7 @@ main {
 	font-size: 1.4rem;
 	font-weight: 500;
 	line-height: 1.8rem;
-	color: var(--black);	
+	color: var(--black);
 }
 
 .plan-card--price {
@@ -498,10 +498,40 @@ main {
 }
 
 .plan-card--ca span {
-	display:inline-block;
+	display: inline-block;
 	width: 20px;
 	height: 20px;
 	background-image: url('./assets/icons/arrow-right.svg');
 	vertical-align: text-bottom;
 }
 
+/* footer */
+footer {
+	display: flex;
+	width: 100%;
+	height: 150px;
+	background: var(--bitcoin-orange);
+}
+
+footer section {
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .left {
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.8rem;
+	list-style: none;
+}
+.left li {
+	margin: 10px 0;
+	list-style: none;
+}
+
+.left a {
+	text-decoration: none;
+	color: var(--just-white);
+}
